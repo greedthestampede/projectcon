@@ -154,22 +154,41 @@ nav.navBar {
 
 .cartaoAtuacao {
   text-align: center;
+  margin-top: 3rem;
   margin-bottom: 5rem;
   padding: 1rem;
   width: 100%;
+  height: 70%;
+  color: black;border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0);
+  border: 1px solid rgba(var(--card-border-rgb), 0);
+  -webkit-box-shadow: 4px 4px 13px -2px rgba(0,0,0,0.32); 
+  box-shadow: 4px 4px 13px -2px rgba(0,0,0,0.32);
+}
+
+.cartaoAtuacao:hover {
+  background-color: #439DC5;
+  color: #FFFFFF;
+  cursor: grab;
+}
+
+.cartaoAtuacao:active {
+  cursor: grabbing;
 }
 
 .cartaoTitulo {
-  color: #31495B;
+  color: inherit;
 }
 
 .cartaoImagem {
   margin: 0.6rem 0;
+  width: 100%;
 }
 
 .cartaoTexto{
   font-weight: 300;
   text-align: justify;
+  color: inherit;
 }
 
 .center {
