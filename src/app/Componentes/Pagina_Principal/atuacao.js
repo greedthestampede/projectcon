@@ -13,7 +13,7 @@ export default function Atuacao() {
           </h1>
         </div>
         <div className={styles.textolado}>
-          <Splide className={styles.conjuntoSplide} options={{type: 'loop', perPage: 3, focus: 'center', autoplay: true, snap: true, padding: { left: '1rem', right: '1rem' }, gap: "2rem", arrows: false}} aria-label="My Favorite Images">
+          <Splide className={styles.conjuntoSplide} options={{type: 'loop', perPage: 3, focus: 'center', autoplay: true, snap: true, padding: { left: '1rem', right: '1rem' }, gap: '2rem', arrows: false, breakpoints: { 950: { perPage: 2, focus: 2 }, 640: { perPage: 1 } }}} aria-label="Áreas de Atuação">
             <SplideSlide>
               <div className={styles.cartaoAtuacao}>
                 <h2 className={styles.cartaoTitulo}>Atuação</h2>

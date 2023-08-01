@@ -12,13 +12,13 @@ export default function Footer() {
         <Link href="/contatos">Contatos</Link>
       </div>
       <div className={styles.chamada_foot}>
-        <h2>Telefone</h2>
+        <h3 className={styles.tituloFoot}>Telefone</h3>
         <p>+55 (11) 3061-4010</p>
-        <h2>Endereço</h2>
+        <h3 className={styles.tituloFoot}>Endereço</h3>
         <p>R. Cap. Antônio Rosa, 376 - Pinheiros, São Paulo - SP, 01443-010</p>
       </div>
       <div className={styles.chamada_footAlternado}>
-        <h2>Redes Sociais</h2>
+        <h3 className={styles.tituloFoot}>Redes Sociais</h3>
         <a>Discord</a>
         <a>Instagram</a>
         <a>Twitter</a>

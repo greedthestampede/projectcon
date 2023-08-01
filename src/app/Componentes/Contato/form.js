@@ -19,15 +19,15 @@ export default function Form() {
         <div className={styles.container}>
           <form action={resposta}>
             <formgroup className={styles.inputGroup}>
-              <label htmlFor='name'>Nome</label>
+              <label className={styles.inputLabel} htmlFor='name'>Nome</label>
               <input type='text' name='name' className={styles.inputField} required/>  
             </formgroup>
             <formgroup className={styles.inputGroup}>
-              <label htmlFor='email'>Email</label>
+              <label className={styles.inputLabel} htmlFor='email'>Email</label>
               <input type='email' name='email' className={styles.inputField} required/>
             </formgroup>
             <formgroup className={styles.inputGroup}>
-              <label htmlFor='message'>Mensagem</label>
+              <label className={styles.inputLabel} htmlFor='message'>Mensagem</label>
               <textarea type='text-area' name='message' className={styles.inputFieldMessage} required/>
             </formgroup>
             <button type='submit' className={styles.botaoForm} onClick={enviar}>Enviar</button>
