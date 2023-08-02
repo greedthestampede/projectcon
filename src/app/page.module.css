@@ -18,6 +18,7 @@
   margin-top: auto;
   margin-bottom: auto;
   width: 70%;
+  padding: 2rem;
 }
 
 .ladoalado  {
@@ -147,18 +148,18 @@ nav.navBar {
 .conjuntoSplide {
   display: flex;
   justify-content: center;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
 }
 
 .cartaoAtuacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  margin-top: 3rem;
   margin-bottom: 5rem;
   padding: 1rem;
-  width: 100%;
-  height: 70%;
+  width: 92%;
+  height: 92%;
   color: black;border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
@@ -178,17 +179,48 @@ nav.navBar {
 
 .cartaoTitulo {
   color: inherit;
+  font-size: 1.2rem;
+  height: 20%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.cartaoTituloInterno {
+  font-size: 1.2rem;
 }
 
 .cartaoImagem {
   margin: 0.6rem 0;
   width: 100%;
+  height: auto;
+}
+
+.cartaoTextoExterno{
+  font-weight: bold;
+  text-align: center;
+  color: inherit;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  height: 10%;
 }
 
 .cartaoTexto{
   font-weight: 300;
   text-align: justify;
   color: inherit;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-indent: 1.5rem;
+}
+
+.cartaoBullet{
+  font-weight: 300;
+  text-align: justify;
+  color: inherit;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  margin-left: 1.5rem;
+  list-style-position: inside;
 }
 
 .center {
@@ -472,6 +504,27 @@ nav.navBar {
   margin-left: auto;
   margin-right: auto;
 }
+
+.popupJanela {
+  padding: 2rem;
+  background-color: #bfecfff3;
+  max-width: 75%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.popupFechar {
+  display: block;
+  margin-top: -3rem;
+  margin-right: -3rem;
+  font-size: 4rem;
+  width: 35px;
+  height: auto;
+  float: right;
+  cursor: pointer;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
