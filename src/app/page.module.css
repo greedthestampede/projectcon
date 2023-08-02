@@ -58,7 +58,7 @@
 nav.navBar {
   display: flex;
   justify-content: center;
-  max-width: 1300px;
+  max-width: 2000px;
   width: 100%;
   text-transform: uppercase;
   color: #31495B;
@@ -231,7 +231,7 @@ nav.navBar {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 1300px;
+  max-width: 2000px;
 }
 
 .chamada {
@@ -239,7 +239,7 @@ nav.navBar {
   flex-direction: row;
   padding: 2rem;
   width: 100%;
-  max-width: 1300px;
+  max-width: 2000px;
   margin-left: auto;
   margin-right: auto;
   height: fit-content;
@@ -249,7 +249,7 @@ nav.navBar {
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  max-width: 1300px;
+  max-width: 2000px;
   height: fit-content;
 }
 
@@ -330,7 +330,7 @@ nav.navBar {
 .inputField {
   height: 30px;
   width: 30vw;
-  max-width: 1300px;
+  max-width: 2000px;
   margin-top: 0.3rem;
   padding-left: 0.5rem;
 }
@@ -424,7 +424,7 @@ nav.navBar {
   margin-left: auto;
   margin-right: auto;
   width: 45%;
-  max-width: 1300px;
+  max-width: 2000px;
 }
 
 .paragrafoDescricao {
@@ -637,7 +637,7 @@ nav.navBar {
     margin-left: none;
     margin-right: none;
     width: 90%;
-    max-width: 1300px;
+    max-width: 2000px;
   }
 
   .paragrafoDescricao {
@@ -660,7 +660,7 @@ nav.navBar {
   .inputField {
     height: 30px;
     width: 80vw;
-    max-width: 1300px;
+    max-width: 2000px;
     margin-top: 0.3rem;
     margin-right: 0.5rem;
     padding: 0.5rem;
@@ -707,7 +707,7 @@ nav.navBar {
   .inputField {
     height: 40px;
     width: 80vw;
-    max-width: 1300px;
+    max-width: 2000px;
     margin-top: 0.3rem;
     margin-bottom: 2rem;
     margin-right: 0.5rem;
