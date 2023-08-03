@@ -5,12 +5,13 @@ import { resposta } from './Partes/FuncoesForm';
 
 export default function Form() {
   
-  async function enviar() {
-    if (input.value.lenght == 0) {
-      alert("Preencha os campos do formulário!");
+  async function reset(event) {
+    if (event.target.form.name.value == "" || event.target.form.email.value == "" || event.target.form.subject.value == "" || event.target.form.message.value == "" || event.target.form.email.value.includes('@') == false || event.target.form.email.value.includes('.') == false) {
+      
+    } else {
+      alert("Formulário enviado!")
+      window.location.reload();
     }
-    alert("Dados enviados!");
-    window.location.reload();
   }
 
   return(
@@ -27,10 +28,14 @@ export default function Form() {
               <input type='email' name='email' className={styles.inputField} required/>
             </formgroup>
             <formgroup className={styles.inputGroup}>
+              <label className={styles.inputLabel} htmlFor='subject'>Assunto</label>
+              <input type='text' name='subject' className={styles.inputField} required/>
+            </formgroup>
+            <formgroup className={styles.inputGroup}>
               <label className={styles.inputLabel} htmlFor='message'>Mensagem</label>
               <textarea type='text-area' name='message' className={styles.inputFieldMessage} required/>
             </formgroup>
-            <button type='submit' className={styles.botaoForm} onClick={enviar}>Enviar</button>
+            <button type='submit' className={styles.botaoForm} onClick={reset}>Enviar</button>
           </form>
         </div>
       </div>

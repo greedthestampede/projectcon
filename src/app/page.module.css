@@ -152,7 +152,7 @@ nav.navBar {
 }
 
 .cartaoAtuacao {
-  display: flex;
+  display: flexbox;
   flex-direction: column;
   justify-content: center;
   text-align: center;
@@ -178,9 +178,12 @@ nav.navBar {
 }
 
 .cartaoTitulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   color: inherit;
   font-size: 1.2rem;
-  height: 20%;
+  height: 30%;
   margin-top: auto;
   margin-bottom: auto;
 }
