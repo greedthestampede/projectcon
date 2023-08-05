@@ -9,7 +9,7 @@ export default function Form() {
     <div className={styles.center}>
       <div className={styles.chamada}>
         <div className={styles.container}>
-          <form action={resposta}>
+          <form action={resposta} method='post'>
             <formgroup className={styles.inputGroup}>
               <label className={styles.inputLabel} htmlFor='name'>Nome</label>
               <input type='text' name='name' className={styles.inputField} required/>  
