@@ -12,11 +12,11 @@ export default function Form() {
           <form action={resposta}>
             <div className={styles.inputGroup}>
               <label className={styles.inputLabel} htmlFor='name'>Nome</label>
-              <textarea type='text' name='name' className={styles.inputField} required/>  
+              <input type='text' name='name' className={styles.inputField} required/>  
             </div>
             <div className={styles.inputGroup}>
               <label className={styles.inputLabel} htmlFor='email'>Email</label>
-              <textarea type='email' name='email' className={styles.inputField} required/>
+              <input type='email' name='email' className={styles.inputField} required/>
             </div>
             <div className={styles.inputGroup}>
               <label className={styles.inputLabel} htmlFor='subject'>Assunto</label>
