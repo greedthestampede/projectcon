@@ -31,7 +31,7 @@ export async function resposta(event) {
     if(err)
       console.log(err);
     else
+      console.log(mailData);
       console.log(info);
-      
   });
 }
