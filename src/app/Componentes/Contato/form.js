@@ -1,4 +1,3 @@
-require('dotenv').config();
 import styles from '../../page.module.css';
 import { resposta } from './Partes/FuncoesForm';
 import { reset } from './Partes/reset';

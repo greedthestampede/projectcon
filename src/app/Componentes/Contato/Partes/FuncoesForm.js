@@ -12,15 +12,15 @@ export async function resposta(event) {
     port: 465,
     host: "smtp.gmail.com",
     auth: {
-      user: process.env.email,
-      pass: process.env.password,
+      user: "botdogrimorio@gmail.com",
+      pass: "oallkklrelpxenuc",
     },
     secure: true,
   });
 
   const mailData = {
-    from: process.env.email,
-    to: process.env.bullet,
+    from: "botdogrimorio@gmail.com",
+    to: "contadevotarbastante@gmail.com",
     subject: `${subject}`,
     text: message + " | Enviado por: " + name + " | Email: " + email,
     html: `<div>${message}</div><p>Enviado por: ${name}</p><p>Email:
