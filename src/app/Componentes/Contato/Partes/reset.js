@@ -1,10 +1,14 @@
 "use client"
 
 export async function reset(event) {
-    if (event.target.form.name.value == "" || event.target.form.email.value == "" || event.target.form.subject.value == "" || event.target.form.message.value == "" || event.target.form.email.value.includes('@') == false || event.target.form.email.value.includes('.') == false) {
+  console.log(event.target.form[1].value);
+  if (event.target.form[0].value == "" || event.target.form[1].value == "" || event.target.form[2].value == "" || event.target.form[3].value == "" || event.target.form[1].value.includes('@') == false || event.target.form[1].value.includes('.') == false) {
       
     } else {
+      setTimeout(function(){
+        window.location.reload();
+      }, 1250);
       alert("Formulário enviado!")
-      window.location.reload();
     }
   }
+
