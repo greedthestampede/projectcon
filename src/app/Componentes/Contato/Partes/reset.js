@@ -7,7 +7,7 @@ export async function reset(event) {
     } else {
       setTimeout(function(){
         window.location.reload();
-      }, 1250);
+      }, 2000);
       alert("Formulário enviado!")
     }
   }
