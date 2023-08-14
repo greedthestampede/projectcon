@@ -19,9 +19,9 @@ export default function Footer() {
       </div>
       <div className={styles.chamada_footAlternado}>
         <h3 className={styles.tituloFoot}>Redes Sociais</h3>
-        <a>Discord</a>
-        <a>Instagram</a>
-        <a>Twitter</a>
+        <Link href="https://wa.me/55119XXXXXXXX" target='_blank'>Whatsapp</Link>
+        <Link href="https://www.linkedin.com" target='_blank'>LinkedIn</Link>
+        <Link href="https://www.instagram.com" target='_blank'>Instagram</Link>
       </div>
     </div>
       </div>
