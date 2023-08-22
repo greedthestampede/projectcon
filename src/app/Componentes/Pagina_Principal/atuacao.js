@@ -35,7 +35,7 @@ export default function Atuacao() {
               <Popup trigger={<SplideSlide>
                 <div className={styles.cartaoAtuacao} onClick={() => setOpenFirst(o => !o)}>
                   <h2 className={styles.cartaoTitulo}>Abastecimento de Água</h2>
-                  <img src="https://placehold.co/800x825.png" className={styles.cartaoImagem} alt="Image 1"/>
+                  <img src="/abastecimento-agua.png" className={styles.cartaoImagem} alt="Image 1"/>
                   <p className={styles.cartaoTextoExterno}>Saiba mais...</p>
                 </div>
              </SplideSlide>} modal open={openFirst} closeOnDocumentClick onClose={closeModalFirst} lockScroll repositionOnResize>
@@ -59,7 +59,7 @@ export default function Atuacao() {
             <Popup trigger={<SplideSlide>
             <div className={styles.cartaoAtuacao} onClick={() => setOpenSecond(a => !a)}>
                 <h2 className={styles.cartaoTitulo}>Esgotamento Sanitário</h2>
-                <img src="https://placehold.co/800x825.png" className={styles.cartaoImagem} alt="Image 2"/>
+                <img src="/esgotamento-sanitario.png" className={styles.cartaoImagem} alt="Image 2"/>
                 <p className={styles.cartaoTextoExterno}>Saiba mais...</p>
 		          </div>
             </SplideSlide>} modal open={openSecond} closeOnDocumentClick onClose={closeModalSecond} lockScroll repositionOnResize>
@@ -80,7 +80,7 @@ export default function Atuacao() {
             <Popup trigger={<SplideSlide>
             <div className={styles.cartaoAtuacao} onClick={() => setOpenThird(a => !a)}>
                 <h2 className={styles.cartaoTitulo}>Resíduos Sólidos e Limpeza Urbana</h2>
-                <img src="https://placehold.co/800x825.png" className={styles.cartaoImagem} alt="Image 3"/>
+                <img src="/residuos-solidos.png" className={styles.cartaoImagem} alt="Image 3"/>
                 <p className={styles.cartaoTextoExterno}>Saiba mais...</p>
               </div>
             </SplideSlide>} modal open={openThird} closeOnDocumentClick onClose={closeModalThird} lockScroll repositionOnResize>
@@ -106,7 +106,7 @@ export default function Atuacao() {
             <Popup trigger={<SplideSlide>
                 <div className={styles.cartaoAtuacao} onClick={() => setOpenFourth(o => !o)}>
                   <h2 className={styles.cartaoTitulo}>Drenagem</h2>
-                  <img src="https://placehold.co/800x825.png" className={styles.cartaoImagem} alt="Image 4"/>
+                  <img src="/drenagem.png" className={styles.cartaoImagem} alt="Image 4"/>
                   <p className={styles.cartaoTextoExterno}>Saiba mais...</p>
                 </div>
              </SplideSlide>} modal open={openFourth} closeOnDocumentClick onClose={closeModalFourth} lockScroll repositionOnResize>
@@ -119,7 +119,7 @@ export default function Atuacao() {
             <Popup trigger={<SplideSlide>
             <div className={styles.cartaoAtuacao} onClick={() => setOpenFifth(a => !a)}>
                 <h2 className={styles.cartaoTitulo}>Meio Ambiente</h2>
-                <img src="https://placehold.co/800x825.png" className={styles.cartaoImagem} alt="Image 5"/>
+                <img src="/meio-ambiente.png" className={styles.cartaoImagem} alt="Image 5"/>
                 <p className={styles.cartaoTextoExterno}>Saiba mais...</p>
 		          </div>
             </SplideSlide>} modal open={openFifth} closeOnDocumentClick onClose={closeModalFifth} lockScroll repositionOnResize>
@@ -133,7 +133,7 @@ export default function Atuacao() {
             <Popup trigger={<SplideSlide>
             <div className={styles.cartaoAtuacao} onClick={() => setOpenSixth(a => !a)}>
                 <h2 className={styles.cartaoTitulo}>Recursos Hídricos</h2>
-                <img src="https://placehold.co/800x825.png" className={styles.cartaoImagem} alt="Image 6"/>
+                <img src="/recursos-hidricos.png" className={styles.cartaoImagem} alt="Image 6"/>
                 <p className={styles.cartaoTextoExterno}>Saiba mais...</p>
               </div>
             </SplideSlide>} modal open={openSixth} closeOnDocumentClick onClose={closeModalSixth} lockScroll repositionOnResize>
@@ -147,7 +147,7 @@ export default function Atuacao() {
             <Popup trigger={<SplideSlide>
                 <div className={styles.cartaoAtuacao} onClick={() => setOpenSeventh(o => !o)}>
                   <h2 className={styles.cartaoTitulo}>Desenvolvimento Urbano e Territorial</h2>
-                  <img src="https://placehold.co/800x825.png" className={styles.cartaoImagem} alt="Image 7"/>
+                  <img src="/planejamento-urbano.png" className={styles.cartaoImagem} alt="Image 7"/>
                   <p className={styles.cartaoTextoExterno}>Saiba mais...</p>
                 </div>
              </SplideSlide>} modal open={openSeventh} closeOnDocumentClick onClose={closeModalSeventh} lockScroll repositionOnResize>
@@ -169,7 +169,7 @@ export default function Atuacao() {
             <Popup trigger={<SplideSlide>
             <div className={styles.cartaoAtuacao} onClick={() => setOpenEighth(a => !a)}>
                 <h2 className={styles.cartaoTitulo}>Transporte</h2>
-                <img src="https://placehold.co/800x825.png" className={styles.cartaoImagem} alt="Image 2"/>
+                <img src="/transportes.png" className={styles.cartaoImagem} alt="Image 2"/>
                 <p className={styles.cartaoTextoExterno}>Saiba mais...</p>
 		          </div>
             </SplideSlide>} modal open={openEighth} closeOnDocumentClick onClose={closeModalEighth} lockScroll repositionOnResize>

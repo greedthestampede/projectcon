@@ -11,11 +11,11 @@ export default function Clientes() {
           </div>
           <div className={styles.textolado}>
             <img
-              className={styles.valoresImagem}
-              src="https://placehold.co/650x150.png"
+              className={styles.clientesImagem}
+              src="/logos.png"
               alt="Logo Cliente Placeholder"
-              width={650}
-              height={150}
+              width={2992}
+              height={2011}
               priority
             />
           </div>

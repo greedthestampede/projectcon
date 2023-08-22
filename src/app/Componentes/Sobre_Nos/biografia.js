@@ -9,9 +9,9 @@ export async function Biografia() {
                 <h2 className={styles.titulo}>Biografia</h2>
                 </div>
                 <div className={styles.textolado}>
-                <p className={styles.paragrafo}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vulputate nibh eu tincidunt commodo. Sed in lectus nulla. In quis tempor lacus, ac ornare velit. Proin quis sodales arcu, vitae euismod justo. Mauris lorem augue, aliquam nec malesuada cursus, sollicitudin vitae tellus. Integer ipsum nisl, egestas sit amet accumsan quis.</p>
-                <p className={styles.paragrafo}>Suspendisse semper eros a ante condimentum, sollicitudin commodo tortor condimentum. Praesent nec sagittis lacus, non sollicitudin metus. Pellentesque interdum massa sit amet scelerisque viverra. Fusce eu nulla erat. Donec porttitor euismod commodo. Quisque dictum vitae felis id imperdiet. Nunc sit amet dictum ligula, id dictum sapien. Fusce consectetur magna vel.</p>
-                <p className={styles.paragrafo}>Pellentesque lectus felis, varius sit amet mauris in, consectetur convallis velit. Vestibulum dictum feugiat egestas. Maecenas aliquet ultrices lorem a vulputate. Cras et ligula leo. Aliquam nisl elit, viverra ut quam consectetur, faucibus maximus leo. Curabitur mollis eu est ac varius. Nullam ut libero nisl. Etiam scelerisque erat eu arcu.</p>
+                <p className={styles.paragrafo}>A Projectcon foi fundada em XX de (mês) de XXXX, atualmente está localizada na cidade de São Paulo, com o objetivo de…</p>
+                <p className={styles.paragrafo}>Atua fortemente no setor de saneamento, com a elaboração de Termos de Referência, Planos diretores, Planos Municipais de Gestão Integrada de Resíduos Sólidos - PMGIRS, porém, não se limita a esta área de atuação, executando serviços de supervisão e apoio técnico em obras e consultorias.</p>
+                <p className={styles.paragrafo}>Nesses XX anos de história, executamos serviços em vários municípios do estado de São Paulo e no Rio de Janeiro, sempre prezando pela qualidade técnica na resolução dos problemas e com uma equipe multidisciplinar capaz de lidar com as diversidades que surgirem ao longo dos projetos.</p>
                 </div>
             </div>
             </div>

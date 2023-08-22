@@ -11,9 +11,9 @@ export default function Biografia() {
           </div>
           <div className={styles.textolado}>
             <p className={styles.paragrafo}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu tincidunt velit. Maecenas eget rutrum mi. Proin egestas enim a malesuada venenatis. Cras placerat diam augue, maximus hendrerit nulla fermentum in. Duis sed tortor sed nisi sollicitudin cursus. Donec et vulputate nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            A empresa Projectcon Consultoria e Projetos LTDA, atua no mercado de gerenciamento desde XXXX, atualmente comandada por XXX(nome da pessoa), formado em XXX(Formação acadêmica).</p>
             <p className={styles.paragrafo}>
-            Morbi porta dignissim libero. Donec faucibus cursus nibh. Nam accumsan sollicitudin orci, nec dictum nisi pellentesque at. Cras ut consequat augue. Sed gravida dui ac consequat volutpat. In posuere sapien ac arcu placerat vulputate. Morbi lobortis leo quis justo tincidunt eleifend. Duis quis diam erat.</p>
+            Foi criada com o propósito de atender as expectativas dos seus clientes oferecendo um serviço de qualidade, no prazo esperado, apresentando soluções inovadoras e de forma sustentável.</p>
           </div>          
         </div>
       </div>
